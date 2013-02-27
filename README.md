@@ -21,6 +21,7 @@ We have given you an almost blank Eclipse project. It has two files - README.md,
  1. Now that the error is fixed and the code compiles, we can now start thinking about the API of the ```Square``` class. Ask yourself these basic questions: 
     1. _What should a Square class know about itself ?_  
     1. _What services should a Square class offer to the rest of the world ?_ . 
+    
     We will answer these questions iteratively. Since we are making a Minesweeper game, the first thing a Square should know about itself is if it is a mine. Add a ```boolean``` attribute ```mine``` and accessor methods to get and set it's value. We normally do not test accessor methods, so we will not do anything to the test case as yet.
  1. Create a no-args (default) constructor for ```Square```.
  1. We still do not have anything to test, so the test case will fail. That is ok for now.
