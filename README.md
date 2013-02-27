@@ -2,22 +2,27 @@
 
 <h2>Overview</h2>
 
-This is the first activity of this course. The purpose of the activity is to become familiar with the development environment that we will use in this course. Our development environment consists of:
+This is the first activity of this course. The purpose of the activity is to become familiar with the development environment that we will use in this course. It consists of:
 
  - The IDE (Eclipse)
  - The directory structure of the project
  - JUnit the unit testing infrastructure
  
 
-In this project. we have given you a blank Java project in Eclipse. Well, almost blank, since it has this README.md file and a class called ```PleaseDelete```, which as the name suggests shoul be deleted before once you checkout the project.
+We have given you an almost blank Eclipse project. It has two files - README.md, and a class called ```PleaseDelete```, which as the name suggests should be deleted once you import the project into your workspace.
 
 <h2>Steps For This Activity</h2>
- 1. Create a new source folder called 'test' for unit  tests. If you are not aware of what unit tests are, take a look at this Wikipedia link on unit tests http://en.wikipedia.org/wiki/Unit_testing. Creating a 'test' directory for unit tests, is a fairly standard convention in a Java project.
+ 1. Start the Eclipse IDE
+ 1. Create a workspace for this course (call it anything)
+ 1. Create a new source folder called 'test' for [unit tests](http://en.wikipedia.org/wiki/Unit_testing). Creating a 'test' directory for unit tests, is a fairly standard convention in a Java project.
  1. Using Eclipse, create a JUnit 4.0 test case called ```com.diycomputerscience.minesweeper.SquareTest``` in the 'test' folder. The 'test' folder is for unit test classes and the 'src' folder is for production code.
- 1. Copy and paste the code shown below as _code sample 1_ into the class ```SquareTest```.
+ 1. Copy and paste the code shown below in _code sample 1_ into ```SquareTest```.
  1. You will notice a compilation error in the code. You need to fix that error.
- 1. If you have fixed the compilation error, you should not be in a position to start thinking about the API of Square. Ask yourself these basic questions: _What should a Square class know about itself ?_  _What services should a Square class offer to the rest of the world ?_ . We will answer these questions iteratively. Since we are making a Minesweeper game, the first thing a Square should know about itself is if it is a mine. Add a ```boolean``` attribute ```mine``` and accessor methods to get and set it's value. We normally do not test accessor methods, so we will not do anything to the test case as yet.
- 1. Create a no-args constructor for ```Square```.
+ 1. Now that the error is fixed and the code compiles, we can now start thinking about the API of the ```Square``` class. Ask yourself these basic questions: 
+    1. _What should a Square class know about itself ?_  
+    1. _What services should a Square class offer to the rest of the world ?_ . 
+    We will answer these questions iteratively. Since we are making a Minesweeper game, the first thing a Square should know about itself is if it is a mine. Add a ```boolean``` attribute ```mine``` and accessor methods to get and set it's value. We normally do not test accessor methods, so we will not do anything to the test case as yet.
+ 1. Create a no-args (default) constructor for ```Square```.
  1. We still do not have anything to test, so the test case will fail. That is ok for now.
 
 <h2>Stuff You Should Notice While Doing The Project</h2>
