@@ -28,8 +28,8 @@ We have given you an almost blank Eclipse project. It has two files - README.md,
 
 <h2>Stuff You Should Notice While Doing The Project</h2>
  1. Coding conventions used for class and method names.
- 1. Coding conventions used for the accessor methods in the class ```Square```.
- 1. Similarity in packages that ```Square``` and ```SquareTest``` belong to.
+ 1. Coding conventions used for the accessor methods in the ```Square``` class.
+ 1. The fact that ```Square``` and ```SquareTest``` belong to the same package but in different source folders.
  1. How Eclipse displays results of a test case
 
 <h2>Learning Outcomes</h2>
